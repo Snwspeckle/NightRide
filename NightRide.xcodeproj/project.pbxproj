@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A32B111896FE80001BF997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B101896FE80001BF997 /* Foundation.framework */; };
+		92A32B131896FE80001BF997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B121896FE80001BF997 /* CoreGraphics.framework */; };
+		92A32B151896FE80001BF997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B141896FE80001BF997 /* UIKit.framework */; };
+		92A32B1B1896FE80001BF997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B191896FE80001BF997 /* InfoPlist.strings */; };
+		92A32B1D1896FE80001BF997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B1C1896FE80001BF997 /* main.m */; };
+		92A32B211896FE81001BF997 /* NRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B201896FE81001BF997 /* NRAppDelegate.m */; };
+		92A32B241896FE81001BF997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B221896FE81001BF997 /* Main.storyboard */; };
+		92A32B271896FE81001BF997 /* NRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B261896FE81001BF997 /* NRFirstViewController.m */; };
+		92A32B2A1896FE81001BF997 /* NRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B291896FE81001BF997 /* NRSecondViewController.m */; };
+		92A32B2C1896FE81001BF997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B2B1896FE81001BF997 /* Images.xcassets */; };
+		92A32B331896FE81001BF997 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B321896FE81001BF997 /* XCTest.framework */; };
+		92A32B341896FE81001BF997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B101896FE80001BF997 /* Foundation.framework */; };
+		92A32B351896FE81001BF997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B141896FE80001BF997 /* UIKit.framework */; };
+		92A32B3D1896FE81001BF997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B3B1896FE81001BF997 /* InfoPlist.strings */; };
+		92A32B3F1896FE81001BF997 /* NightRideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B3E1896FE81001BF997 /* NightRideTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A32B361896FE81001BF997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A32B051896FE80001BF997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A32B0C1896FE80001BF997;
+			remoteInfo = NightRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92A32B0D1896FE80001BF997 /* NightRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A32B101896FE80001BF997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92A32B121896FE80001BF997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92A32B141896FE80001BF997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92A32B181896FE80001BF997 /* NightRide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightRide-Info.plist"; sourceTree = "<group>"; };
+		92A32B1A1896FE80001BF997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92A32B1C1896FE80001BF997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92A32B1E1896FE81001BF997 /* NightRide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NightRide-Prefix.pch"; sourceTree = "<group>"; };
+		92A32B1F1896FE81001BF997 /* NRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAppDelegate.h; sourceTree = "<group>"; };
+		92A32B201896FE81001BF997 /* NRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAppDelegate.m; sourceTree = "<group>"; };
+		92A32B231896FE81001BF997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A32B251896FE81001BF997 /* NRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRFirstViewController.h; sourceTree = "<group>"; };
+		92A32B261896FE81001BF997 /* NRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRFirstViewController.m; sourceTree = "<group>"; };
+		92A32B281896FE81001BF997 /* NRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRSecondViewController.h; sourceTree = "<group>"; };
+		92A32B291896FE81001BF997 /* NRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRSecondViewController.m; sourceTree = "<group>"; };
+		92A32B2B1896FE81001BF997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92A32B311896FE81001BF997 /* NightRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A32B321896FE81001BF997 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		92A32B3A1896FE81001BF997 /* NightRideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightRideTests-Info.plist"; sourceTree = "<group>"; };
+		92A32B3C1896FE81001BF997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92A32B3E1896FE81001BF997 /* NightRideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightRideTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A32B0A1896FE80001BF997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B131896FE80001BF997 /* CoreGraphics.framework in Frameworks */,
+				92A32B151896FE80001BF997 /* UIKit.framework in Frameworks */,
+				92A32B111896FE80001BF997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A32B2E1896FE81001BF997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B331896FE81001BF997 /* XCTest.framework in Frameworks */,
+				92A32B351896FE81001BF997 /* UIKit.framework in Frameworks */,
+				92A32B341896FE81001BF997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A32B041896FE80001BF997 = {
+			isa = PBXGroup;
+			children = (
+				92A32B161896FE80001BF997 /* NightRide */,
+				92A32B381896FE81001BF997 /* NightRideTests */,
+				92A32B0F1896FE80001BF997 /* Frameworks */,
+				92A32B0E1896FE80001BF997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92A32B0E1896FE80001BF997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B0D1896FE80001BF997 /* NightRide.app */,
+				92A32B311896FE81001BF997 /* NightRideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A32B0F1896FE80001BF997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B101896FE80001BF997 /* Foundation.framework */,
+				92A32B121896FE80001BF997 /* CoreGraphics.framework */,
+				92A32B141896FE80001BF997 /* UIKit.framework */,
+				92A32B321896FE81001BF997 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A32B161896FE80001BF997 /* NightRide */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B1F1896FE81001BF997 /* NRAppDelegate.h */,
+				92A32B201896FE81001BF997 /* NRAppDelegate.m */,
+				92A32B221896FE81001BF997 /* Main.storyboard */,
+				92A32B251896FE81001BF997 /* NRFirstViewController.h */,
+				92A32B261896FE81001BF997 /* NRFirstViewController.m */,
+				92A32B281896FE81001BF997 /* NRSecondViewController.h */,
+				92A32B291896FE81001BF997 /* NRSecondViewController.m */,
+				92A32B2B1896FE81001BF997 /* Images.xcassets */,
+				92A32B171896FE80001BF997 /* Supporting Files */,
+			);
+			path = NightRide;
+			sourceTree = "<group>";
+		};
+		92A32B171896FE80001BF997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B181896FE80001BF997 /* NightRide-Info.plist */,
+				92A32B191896FE80001BF997 /* InfoPlist.strings */,
+				92A32B1C1896FE80001BF997 /* main.m */,
+				92A32B1E1896FE81001BF997 /* NightRide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92A32B381896FE81001BF997 /* NightRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B3E1896FE81001BF997 /* NightRideTests.m */,
+				92A32B391896FE81001BF997 /* Supporting Files */,
+			);
+			path = NightRideTests;
+			sourceTree = "<group>";
+		};
+		92A32B391896FE81001BF997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A32B3A1896FE81001BF997 /* NightRideTests-Info.plist */,
+				92A32B3B1896FE81001BF997 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A32B0C1896FE80001BF997 /* NightRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A32B421896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRide" */;
+			buildPhases = (
+				92A32B091896FE80001BF997 /* Sources */,
+				92A32B0A1896FE80001BF997 /* Frameworks */,
+				92A32B0B1896FE80001BF997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightRide;
+			productName = NightRide;
+			productReference = 92A32B0D1896FE80001BF997 /* NightRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A32B301896FE81001BF997 /* NightRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A32B451896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRideTests" */;
+			buildPhases = (
+				92A32B2D1896FE81001BF997 /* Sources */,
+				92A32B2E1896FE81001BF997 /* Frameworks */,
+				92A32B2F1896FE81001BF997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A32B371896FE81001BF997 /* PBXTargetDependency */,
+			);
+			name = NightRideTests;
+			productName = NightRideTests;
+			productReference = 92A32B311896FE81001BF997 /* NightRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A32B051896FE80001BF997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NR;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = NightRide;
+				TargetAttributes = {
+					92A32B301896FE81001BF997 = {
+						TestTargetID = 92A32B0C1896FE80001BF997;
+					};
+				};
+			};
+			buildConfigurationList = 92A32B081896FE80001BF997 /* Build configuration list for PBXProject "NightRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A32B041896FE80001BF997;
+			productRefGroup = 92A32B0E1896FE80001BF997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A32B0C1896FE80001BF997 /* NightRide */,
+				92A32B301896FE81001BF997 /* NightRideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A32B0B1896FE80001BF997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B2C1896FE81001BF997 /* Images.xcassets in Resources */,
+				92A32B1B1896FE80001BF997 /* InfoPlist.strings in Resources */,
+				92A32B241896FE81001BF997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A32B2F1896FE81001BF997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B3D1896FE81001BF997 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A32B091896FE80001BF997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B211896FE81001BF997 /* NRAppDelegate.m in Sources */,
+				92A32B1D1896FE80001BF997 /* main.m in Sources */,
+				92A32B2A1896FE81001BF997 /* NRSecondViewController.m in Sources */,
+				92A32B271896FE81001BF997 /* NRFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A32B2D1896FE81001BF997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A32B3F1896FE81001BF997 /* NightRideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A32B371896FE81001BF997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A32B0C1896FE80001BF997 /* NightRide */;
+			targetProxy = 92A32B361896FE81001BF997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A32B191896FE80001BF997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A32B1A1896FE80001BF997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92A32B221896FE81001BF997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A32B231896FE81001BF997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92A32B3B1896FE81001BF997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A32B3C1896FE81001BF997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A32B401896FE81001BF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92A32B411896FE81001BF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A32B431896FE81001BF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
+				INFOPLIST_FILE = "NightRide/NightRide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92A32B441896FE81001BF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
+				INFOPLIST_FILE = "NightRide/NightRide-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		92A32B461896FE81001BF997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightRide.app/NightRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NightRideTests/NightRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		92A32B471896FE81001BF997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightRide.app/NightRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
+				INFOPLIST_FILE = "NightRideTests/NightRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A32B081896FE80001BF997 /* Build configuration list for PBXProject "NightRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A32B401896FE81001BF997 /* Debug */,
+				92A32B411896FE81001BF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A32B421896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A32B431896FE81001BF997 /* Debug */,
+				92A32B441896FE81001BF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92A32B451896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A32B461896FE81001BF997 /* Debug */,
+				92A32B471896FE81001BF997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A32B051896FE80001BF997 /* Project object */;
+}
