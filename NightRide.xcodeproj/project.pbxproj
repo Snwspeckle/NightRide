@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511478158DA2443681851B2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A83CB319A2A460D9EE97FB1 /* libPods.a */; };
+		9213BDD818AD9CC500A8427C /* NRRidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9213BDD718AD9CC500A8427C /* NRRidesViewController.m */; };
+		9213BDDA18ADACD300A8427C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9213BDD918ADACD300A8427C /* CoreLocation.framework */; };
+		9213BDDC18ADC83000A8427C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9213BDDB18ADC83000A8427C /* MapKit.framework */; };
+		922B55A418ECFF030079CFD3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922B55A318ECFF030079CFD3 /* QuartzCore.framework */; };
 		92A32B111896FE80001BF997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B101896FE80001BF997 /* Foundation.framework */; };
 		92A32B131896FE80001BF997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B121896FE80001BF997 /* CoreGraphics.framework */; };
 		92A32B151896FE80001BF997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B141896FE80001BF997 /* UIKit.framework */; };
@@ -14,14 +19,19 @@
 		92A32B1D1896FE80001BF997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B1C1896FE80001BF997 /* main.m */; };
 		92A32B211896FE81001BF997 /* NRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B201896FE81001BF997 /* NRAppDelegate.m */; };
 		92A32B241896FE81001BF997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B221896FE81001BF997 /* Main.storyboard */; };
-		92A32B271896FE81001BF997 /* NRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B261896FE81001BF997 /* NRFirstViewController.m */; };
-		92A32B2A1896FE81001BF997 /* NRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B291896FE81001BF997 /* NRSecondViewController.m */; };
 		92A32B2C1896FE81001BF997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B2B1896FE81001BF997 /* Images.xcassets */; };
 		92A32B331896FE81001BF997 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B321896FE81001BF997 /* XCTest.framework */; };
 		92A32B341896FE81001BF997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B101896FE80001BF997 /* Foundation.framework */; };
 		92A32B351896FE81001BF997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A32B141896FE80001BF997 /* UIKit.framework */; };
 		92A32B3D1896FE81001BF997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92A32B3B1896FE81001BF997 /* InfoPlist.strings */; };
 		92A32B3F1896FE81001BF997 /* NightRideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B3E1896FE81001BF997 /* NightRideTests.m */; };
+		92A32B4A189702B3001BF997 /* NRLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B49189702B3001BF997 /* NRLoginViewController.m */; };
+		92A32B5018970C67001BF997 /* NRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B4F18970C67001BF997 /* NRTabBarViewController.m */; };
+		92A32B531897113E001BF997 /* NRSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B521897113E001BF997 /* NRSettingsTableViewController.m */; };
+		92A32B561897236F001BF997 /* NRRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A32B551897236F001BF997 /* NRRegisterViewController.m */; };
+		92AAB4B81898A9AD00DDA99E /* NRMD5Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AAB4B71898A9AD00DDA99E /* NRMD5Hashing.m */; };
+		92C1195818BD67C900969A48 /* NRConfirmRideTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C1195718BD67C900969A48 /* NRConfirmRideTableViewController.m */; };
+		92F498CE1897316900D48C4C /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F498CD1897316900D48C4C /* NetworkingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1BB4361FF04B029B7C1987 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		3A83CB319A2A460D9EE97FB1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9213BDD618AD9CC500A8427C /* NRRidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRRidesViewController.h; sourceTree = "<group>"; };
+		9213BDD718AD9CC500A8427C /* NRRidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRRidesViewController.m; sourceTree = "<group>"; };
+		9213BDD918ADACD300A8427C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9213BDDB18ADC83000A8427C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		922B55A318ECFF030079CFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		92A32B0D1896FE80001BF997 /* NightRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A32B101896FE80001BF997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		92A32B121896FE80001BF997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +63,26 @@
 		92A32B1F1896FE81001BF997 /* NRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRAppDelegate.h; sourceTree = "<group>"; };
 		92A32B201896FE81001BF997 /* NRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRAppDelegate.m; sourceTree = "<group>"; };
 		92A32B231896FE81001BF997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92A32B251896FE81001BF997 /* NRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRFirstViewController.h; sourceTree = "<group>"; };
-		92A32B261896FE81001BF997 /* NRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRFirstViewController.m; sourceTree = "<group>"; };
-		92A32B281896FE81001BF997 /* NRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRSecondViewController.h; sourceTree = "<group>"; };
-		92A32B291896FE81001BF997 /* NRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRSecondViewController.m; sourceTree = "<group>"; };
 		92A32B2B1896FE81001BF997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92A32B311896FE81001BF997 /* NightRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A32B321896FE81001BF997 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		92A32B3A1896FE81001BF997 /* NightRideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NightRideTests-Info.plist"; sourceTree = "<group>"; };
 		92A32B3C1896FE81001BF997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		92A32B3E1896FE81001BF997 /* NightRideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightRideTests.m; sourceTree = "<group>"; };
+		92A32B48189702B3001BF997 /* NRLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRLoginViewController.h; sourceTree = "<group>"; };
+		92A32B49189702B3001BF997 /* NRLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRLoginViewController.m; sourceTree = "<group>"; };
+		92A32B4E18970C67001BF997 /* NRTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRTabBarViewController.h; sourceTree = "<group>"; };
+		92A32B4F18970C67001BF997 /* NRTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRTabBarViewController.m; sourceTree = "<group>"; };
+		92A32B511897113E001BF997 /* NRSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRSettingsTableViewController.h; sourceTree = "<group>"; };
+		92A32B521897113E001BF997 /* NRSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRSettingsTableViewController.m; sourceTree = "<group>"; };
+		92A32B541897236F001BF997 /* NRRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRRegisterViewController.h; sourceTree = "<group>"; };
+		92A32B551897236F001BF997 /* NRRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRRegisterViewController.m; sourceTree = "<group>"; };
+		92AAB4B61898A9AD00DDA99E /* NRMD5Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRMD5Hashing.h; sourceTree = "<group>"; };
+		92AAB4B71898A9AD00DDA99E /* NRMD5Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRMD5Hashing.m; sourceTree = "<group>"; };
+		92C1195618BD67C900969A48 /* NRConfirmRideTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRConfirmRideTableViewController.h; sourceTree = "<group>"; };
+		92C1195718BD67C900969A48 /* NRConfirmRideTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRConfirmRideTableViewController.m; sourceTree = "<group>"; };
+		92F498CC1897316900D48C4C /* NetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
+		92F498CD1897316900D48C4C /* NetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +90,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922B55A418ECFF030079CFD3 /* QuartzCore.framework in Frameworks */,
+				9213BDDA18ADACD300A8427C /* CoreLocation.framework in Frameworks */,
 				92A32B131896FE80001BF997 /* CoreGraphics.framework in Frameworks */,
 				92A32B151896FE80001BF997 /* UIKit.framework in Frameworks */,
 				92A32B111896FE80001BF997 /* Foundation.framework in Frameworks */,
+				9213BDDC18ADC83000A8427C /* MapKit.framework in Frameworks */,
+				511478158DA2443681851B2B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +120,7 @@
 				92A32B381896FE81001BF997 /* NightRideTests */,
 				92A32B0F1896FE80001BF997 /* Frameworks */,
 				92A32B0E1896FE80001BF997 /* Products */,
+				0C1BB4361FF04B029B7C1987 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +136,14 @@
 		92A32B0F1896FE80001BF997 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				922B55A318ECFF030079CFD3 /* QuartzCore.framework */,
+				9213BDDB18ADC83000A8427C /* MapKit.framework */,
+				9213BDD918ADACD300A8427C /* CoreLocation.framework */,
 				92A32B101896FE80001BF997 /* Foundation.framework */,
 				92A32B121896FE80001BF997 /* CoreGraphics.framework */,
 				92A32B141896FE80001BF997 /* UIKit.framework */,
 				92A32B321896FE81001BF997 /* XCTest.framework */,
+				3A83CB319A2A460D9EE97FB1 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +154,22 @@
 				92A32B1F1896FE81001BF997 /* NRAppDelegate.h */,
 				92A32B201896FE81001BF997 /* NRAppDelegate.m */,
 				92A32B221896FE81001BF997 /* Main.storyboard */,
-				92A32B251896FE81001BF997 /* NRFirstViewController.h */,
-				92A32B261896FE81001BF997 /* NRFirstViewController.m */,
-				92A32B281896FE81001BF997 /* NRSecondViewController.h */,
-				92A32B291896FE81001BF997 /* NRSecondViewController.m */,
+				92F498CC1897316900D48C4C /* NetworkingManager.h */,
+				92F498CD1897316900D48C4C /* NetworkingManager.m */,
+				92A32B48189702B3001BF997 /* NRLoginViewController.h */,
+				92A32B49189702B3001BF997 /* NRLoginViewController.m */,
+				92A32B4E18970C67001BF997 /* NRTabBarViewController.h */,
+				92A32B4F18970C67001BF997 /* NRTabBarViewController.m */,
+				9213BDD618AD9CC500A8427C /* NRRidesViewController.h */,
+				9213BDD718AD9CC500A8427C /* NRRidesViewController.m */,
+				92C1195618BD67C900969A48 /* NRConfirmRideTableViewController.h */,
+				92C1195718BD67C900969A48 /* NRConfirmRideTableViewController.m */,
+				92A32B511897113E001BF997 /* NRSettingsTableViewController.h */,
+				92A32B521897113E001BF997 /* NRSettingsTableViewController.m */,
+				92A32B541897236F001BF997 /* NRRegisterViewController.h */,
+				92A32B551897236F001BF997 /* NRRegisterViewController.m */,
+				92AAB4B61898A9AD00DDA99E /* NRMD5Hashing.h */,
+				92AAB4B71898A9AD00DDA99E /* NRMD5Hashing.m */,
 				92A32B2B1896FE81001BF997 /* Images.xcassets */,
 				92A32B171896FE80001BF997 /* Supporting Files */,
 			);
@@ -164,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A32B421896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRide" */;
 			buildPhases = (
+				D01E6CFEEA59417EA0936850 /* Check Pods Manifest.lock */,
 				92A32B091896FE80001BF997 /* Sources */,
 				92A32B0A1896FE80001BF997 /* Frameworks */,
 				92A32B0B1896FE80001BF997 /* Resources */,
+				421B041D9AA54868902B865E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,9 +252,17 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NR;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = NightRide;
 				TargetAttributes = {
+					92A32B0C1896FE80001BF997 = {
+						DevelopmentTeam = 8Q7Z4BNPVX;
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					92A32B301896FE81001BF997 = {
 						TestTargetID = 92A32B0C1896FE80001BF997;
 					};
@@ -250,15 +308,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		421B041D9AA54868902B865E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D01E6CFEEA59417EA0936850 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92A32B091896FE80001BF997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A32B5018970C67001BF997 /* NRTabBarViewController.m in Sources */,
+				92AAB4B81898A9AD00DDA99E /* NRMD5Hashing.m in Sources */,
+				92C1195818BD67C900969A48 /* NRConfirmRideTableViewController.m in Sources */,
+				92A32B561897236F001BF997 /* NRRegisterViewController.m in Sources */,
+				92F498CE1897316900D48C4C /* NetworkingManager.m in Sources */,
 				92A32B211896FE81001BF997 /* NRAppDelegate.m in Sources */,
 				92A32B1D1896FE80001BF997 /* main.m in Sources */,
-				92A32B2A1896FE81001BF997 /* NRSecondViewController.m in Sources */,
-				92A32B271896FE81001BF997 /* NRFirstViewController.m in Sources */,
+				92A32B531897113E001BF997 /* NRSettingsTableViewController.m in Sources */,
+				9213BDD818AD9CC500A8427C /* NRRidesViewController.m in Sources */,
+				92A32B4A189702B3001BF997 /* NRLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +409,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -351,7 +447,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,26 +477,34 @@
 		};
 		92A32B431896FE81001BF997 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1BB4361FF04B029B7C1987 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
 				INFOPLIST_FILE = "NightRide/NightRide-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DB0F3AB5-CF55-4C66-9852-869404EF4448";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		92A32B441896FE81001BF997 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1BB4361FF04B029B7C1987 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NightRide/NightRide-Prefix.pch";
 				INFOPLIST_FILE = "NightRide/NightRide-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C161FB91-E9BD-4AE4-8F31-DF8F6C4D2770";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -409,7 +512,6 @@
 		92A32B461896FE81001BF997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightRide.app/NightRide";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -432,7 +534,6 @@
 		92A32B471896FE81001BF997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NightRide.app/NightRide";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -467,6 +568,7 @@
 				92A32B441896FE81001BF997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92A32B451896FE81001BF997 /* Build configuration list for PBXNativeTarget "NightRideTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +577,7 @@
 				92A32B471896FE81001BF997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

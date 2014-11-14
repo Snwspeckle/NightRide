@@ -1,5 +1,5 @@
 //
-//  NRFirstViewController.h
+//  NRTabBarViewController.h
 //  NightRide
 //
 //  Created by Anthony on 1/27/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NRFirstViewController : UIViewController
+@interface NRTabBarViewController : UITabBarController
 
 @end
